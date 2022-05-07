@@ -120,7 +120,7 @@ header nav a {
     align-items: center;
     width: 100%;
     margin-top: 6rem;
-    
+
 }
 
 
@@ -128,3 +128,88 @@ header nav a {
     color: white;
     font-weight: lighter;
 }
+
+@media (max-width: 900px) {
+    html {
+        font-size: 13px;
+    }
+
+    body {
+
+        background-size: auto;
+
+    }
+    header img {
+        width: 160px;
+    }
+
+    .page-title h1 {
+        width: 55%;
+        
+    }
+
+    .page-title h1 {
+        width: 45%;
+    }
+}
+@media (max-width: 768px){
+    header nav {
+        display: none;
+    }
+
+    header #primary-button {
+        display: none;
+    }
+
+    .drop-down {
+        display: block;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 0 40px;
+    }
+
+    .page-title h1 {
+        width: 70%;
+    }
+
+    .page-title h3 {
+        width: 70%;
+    }
+
+    #primary-button {
+        width: 15rem;
+    }
+
+    #secundary-button {
+        width: 15rem;
+    }
+
+}
+
+@media (max-width: 480px){
+    html {
+        font-size: 12px
+    }
+
+    header {
+        padding: 0 10px;
+    }
+
+    .page-title-button {
+        flex-direction: column;
+    }
+
+    #primary-button{
+        width: 80%;
+    }
+
+    #secundary-button{
+        width: 80%;
+    }
+
+    .page-title-button #secundary-button{
+        margin-top: 15px;
+    }
+} 
